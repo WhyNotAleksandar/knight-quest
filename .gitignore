@@ -1,0 +1,50 @@
+# Ignores the drafting lab (sketches, svgs, ideas)
+draft/
+
+# Ignore Python cache files and bytecode
+**/__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.py[cod]
+*.so
+
+# Optional: If you're using virtual environments
+env/
+venv/
+*.env
+
+# Ignore LaTeX build artifacts
+*.aux
+*.log
+*.out
+*.toc
+*.lof
+*.lot
+*.fls
+*.fdb_latexmk
+*.synctex.gz
+*.nav
+*.snm
+*.vrb
+*.bbl
+*.blg
+*.bcf
+*.run.xml
+*.xdv
+
+# System / Editor junk files
+.DS_Store
+Thumbs.db
+*.bak
+*.swp
+*~
+
+# Package caches or archives
+*.tar.gz
+*.zip
+
+# IDE/Editor settings (optional)
+.vscode/
+.idea/
+*.code-workspace
