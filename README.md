@@ -1,6 +1,8 @@
 ## Knight Quest: A Geometric Heuristic Approach to Knight Pathfinding
 **Licence**: MIT License _(Free to use, modify, and distribute)_ 
 
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.15860239.svg)](https://doi.org/10.5281/zenodo.15860239)
+
 **Knight Quest** is a geometry-inspired solution to the knight’s shortest path problem. This method models the knight’s movements as base vectors in the complex plane,
 specifically using the canonical vectors **_( 2, 1 )_** and **_( 1, 2 )_** represented as **_u = 2 + i_** and **_v = 1 + 2i_**. These vectors are then rotated and mirrored 
 according to the signed distance vector between the starting point **_( A )_** and the destination **_( B )_**, allowing for a modular decomposition of the knight's path. 
