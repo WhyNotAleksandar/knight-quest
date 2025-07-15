@@ -59,7 +59,7 @@ class Sequence:
         Computes the sequence value for a knight moving repeatedly along the base vector (2, 1), 
         which corresponds to movement along the y = x/2 diagonal.
 
-        The knight's movement space exhibits symmetry across several axes: y = x/2, y = 2x,
+        The knight's movement space exhibits symmetry across several diagonals: y = x/2, y = 2x,
         y = -2x, and y = -x/2. Due to this symmetry, the minimum number of moves required
         to reach a point between the lines y and y = x is the same as that required to
         reach a point between y = x and x. This diagonal evaluation captures the minimal path 

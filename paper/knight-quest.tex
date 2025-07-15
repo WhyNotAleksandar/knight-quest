@@ -58,7 +58,7 @@
 % Section 1 - Introduction ----------------------------------------------------------------------------------------
 
 \section{Introduction}
-This article presents a novel, geometry-inspired solution to the Knight’s Shortest Path problem by exploiting the 
+This article presents a novel, geometry-inspired solution to the knight’s shortest path problem by exploiting the 
 emerging modularity and rotational symmetry of L-shaped knight moves. Rather than relying solely on traditional search 
 algorithms, this method models the knight’s movements as base vectors in the complex plane, specifically using the 
 canonical vectors (2,1) and (1,2) represented as \( \overrightarrow{u} = 2 + i \) and \( \overrightarrow{v} = 1 + 2i \).
@@ -143,7 +143,7 @@ Quadrant rotations and adjacent square adjustment
 \end{figure}
 Knight moves are mirrored across the main diagonals: \( y = x, y = -x, -y = x \) and \( -y = -x \). They exhibit 
 repeating patterns along perpendicular lines, such as from \( y = x \) to \( y = \frac{x}{2} \) or \( y = 2x \), 
-where the movement alternates either vertically ( \( y = x \) to \( y = \frac{x}{2} \) ) or horizontally ( \( y = x \) 
+where the movement alternates either vertically ( \( x \) to \( y = \frac{x}{2} \) ) or horizontally ( \( y  \) 
 to \( y = 2x \) ). By analyzing sequences of moves along the \( y = \frac{x}{2} \) line,  we can determine the 
 minimum number of moves required to reach a target square.
 
